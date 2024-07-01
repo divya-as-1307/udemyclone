@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    Padding: 0;
+
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap:10px;
+    align-items: center;
+
+}
+
+.navbar__s1__title {
+    color: #A435F0;
+   
+}
+
+.navbar__s2 {
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 16px;
+}
+
+.navbar__s2 input {
+    border: none;
+    width: 100%
+}
+
+.navbar__s2 input:focus{
+    outline: none;
+}
+
+.navbar__s3{ 
+    display: flex;
+    flex-wrap: wrap;
+gap: 20px;
+align-items: center;
+}
+
+.categories
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: solid black 0.5px;
+}
+
+.categories p { background-color: #A435F0;
+color: white;
+border-radius: 30px;
+padding: 10px;}
+
+.sale-image img{ width:100%;}
+
+.course-card{
+    width:300px;
+    Padding:10px;
+
+}
+
+.course-card img{
+
+    width:210px;
+    height:200px;
+
+}
+
+.recomended__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.topics{
+    padding: 10px;
+    
+}
+
+.topics__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+justify-content: space-around;
+margin-top:10px;
+    
+    
+}
+
+.topics__container p{border: solid grey 2px;
+    padding: 10px;
+flex-grow: 1;
+flex-basis: 25%;
+}
+.popular{
+   
+
+    padding:10px;
+}
+
+.popular__container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top:10px;
+  
+}
+
+.footer{
+    padding: 30px;;
+    background-color: black;
+    color: white;
+}
+
+.footer__two{
+    display: flex;
+    justify-content: space-between;
+    Padding:10px;
+}
+
+.footer__one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.footer__one p{margin: 20px;}
+
+
+.categories P:hover{
+background-color: #B860F1;
+}
+
+.topics__container p:hover{border: solid black 2px;}
